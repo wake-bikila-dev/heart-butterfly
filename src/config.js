@@ -1,0 +1,30 @@
+export const FLY_WHITE_DURATION = 16.0;
+export const DESCEND_DURATION = 3.2;
+export const REVEAL_DELAY = 0.7;
+export const REVEAL_DURATION = 6.5;
+export const LAND_HOLD = 0.8;
+export const LANDED_DURATION = REVEAL_DELAY + REVEAL_DURATION + LAND_HOLD;
+export const RECOLOR_DURATION = 2.2;
+export const TAKEOFF_DURATION = 2.0;
+export const AIR_MIN_Y = 1.0;
+export const AIR_MAX_Y = 4.8;
+export const FLIGHT_X_LIMIT = 6.5;
+export const FLIGHT_Z_MIN = -13.5;
+export const FLIGHT_Z_MAX = 2.0;
+export const TAKEOFF_MIN_Y = -2.0;
+export const GRASS_SCALE = 0.40;
+export const GRASS_REVEAL_START = -0.5;
+export const GRASS_REVEAL_RANGE = 2.0;
+export const LAND_LOCAL_X = 0.6;
+export const LAND_LOCAL_Z = 4.2;
+export const PERCH_HEIGHT = 3.4;
+export const PERCH_BEND = 0.12;
+export const PERCH_WIDTH = 0.36;
+export const LAND_POS = Object.freeze({ x: 0.17, y: 0.05, z: 0.155 });
+export const LAND_QUATERNION = Object.freeze({
+  matrix: [-1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1]
+});
+export const GRASS_MAX_HEIGHT = 8.0;
+export const GRASS_TRANSITION_WIDTH = 0.4;
+export const GRASS_REVEAL_NOISE_FREQUENCY = 5.0;
+export const GRASS_REVEAL_NOISE_AMPLITUDE = 0.05;
