@@ -1,6 +1,6 @@
 # Heart Butterfly ? Gray to Green
 
-A modular Three.js heart butterfly scene with flight, landing, grass reveal, and recolour animation.
+A modular Three.js heart butterfly scene with flight, landing, grass reveal, and recolour animation. and it's personal the butterfly represents my GF ILY 😍 my Luna 
 
 Run locally with `npx serve .` or `python3 -m http.server`.
 
